@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono:wght@100;200&family=Prompt:wght@200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "IBM+Plex+Mono", sans-serif;
+	box-sizing: border-box;
+}
+html {
+	scroll-padding-top: 15rem;
+
+}
+
+.logo {
+	height: 100px;
+	padding: 10px;
+}
+
+#container {
+	background-color: #A7BEAE;
+	color: black;
+	position: relative;
+}
+
+main {
+	width: 70vw;
+	margin: 0px auto;
+
+}
+
+/*Header*/
+
+header {
+	width: 100%;
+	background-color: #B85042;
+	display: flex;
+	justify-content: space-around;
+	position: sticky;
+	z-index: 1665;
+	top: 0;
+	min-height: 80px;
+	padding: 0px 20px;
+	border: 2px transparent;
+	border-radius: 4rem;
+	opacity: 97%;
+}
+nav {
+	display: flex;
+	text-decoration: none;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+}
+
+nav a {
+	color: black;
+	margin: auto 20px;
+	padding: 30px 20px;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	border: 2px transparent;
+	border-radius: 8px;	
+}
+
+nav a:hover {
+	background-color: #E7E8D1;
+	color: #B85042;
+}
+
+/*EMAIL SECTION*/
+
+.email {
+	display: flex;
+	justify-content: center;
+	margin: 5rem 0px;
+	flex-direction: column;
+}
+h3 {
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.email button {
+	width: 6vw;
+	height: 3vw;
+	margin: 2px auto;
+	border: transparent;
+	border-radius: 12px;
+	background-color: #B85042;
+	cursor: pointer;	
+}
+
+.email button:hover {
+	background-color: #E7E8D1;
+}
+
+input {
+	padding: 0.37rem 0.75rem;
+	width: 25vw;
+	margin: 20px auto;
+	height: 4vh;
+	border: transparent;
+	border-radius: 10px;
+}
+
+/*VIdeo SECTION link*/
+
+#video {
+	display: flex;
+	justify-content: center;
+	margin: 2rem;
+	border: none;
+
+}
+
+#video iframe {
+	width: 50vw;
+	height: 50vh;	
+}
+
+/QUALITIES OF SERVICES*/
+
+.services {
+	width: 75vw;
+	margin: 10rem auto;
+}
+
+
+.flex img {
+	width: 65px;
+	margin-left: 7rem;
+
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 8rem;
+	height: 4rem;
+	justify-content: center;
+}
+
+
+#section {
+	display: flex;
+	flex-direction: row;
+	width: 70vw;
+	margin: 50px auto;
+
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	margin: 10px auto;
+	flex-direction: column;
+	background-color: #E7E8D1;
+	padding: 30px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+#conditions {
+	text-align: center;
+}
+
+#conditions a {
+	padding: 5px 15px;
+	text-decoration: none;
+	color: black;
+	border: transparent;
+	border-radius: 10px;
+}
+
+#conditions a:hover {
+	background-color: #B85042;
+	color: #E7E8D1;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.products {
+	display: flex;
+	justify-content: center;
+	width: 75vw;
+	margin: 40px auto;
+}
+
+.cleanser,
+.mask,
+.shampoo {
+	margin: 5rem;
+	border: 2px transparent solid;
+	border-radius: 10px;
+	background-color: #E7E8D1;
+	height: 40vh;
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Caveat", sans-serif;
+}
+
+.name {
+	text-align: center;
+	background-color: #B85042;
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.para {
+	padding: 10px;
+
+}
+
+.btn {
+	margin: 30px 50px;
+	cursor: pointer;
+	background-color: #B85042;
+	border: 10px transparent solid;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #A7BEAE;
+}
+
+.price {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
